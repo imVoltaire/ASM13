@@ -270,14 +270,15 @@
     height: 300px;
   }
   
-  
+  /* Căn chỉnh footer theo tỷ lệ màn hình */
   .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 15px;
+    font-size: 100%;
+    margin: 10% 10%;
   }
-  
+  /* Căn chỉnh icon */
   .ft-icon {
     color: #0abde3;
     font-size: 20px;
@@ -297,4 +298,7 @@
  .navbar-image{
   display: inline-block;
  }
- 
+ /* Ẩn thông tin cá nhân */
+ .Information {
+  visibility: hidden;
+ }

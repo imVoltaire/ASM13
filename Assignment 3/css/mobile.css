@@ -2,6 +2,7 @@
   height: auto;
   
 }
+/* căn chỉnh hình ảnh theo tỷ lệ màn hình */
 .img-banner{
   height: auto;
   width: auto;
@@ -16,6 +17,7 @@
   color: #fff;
   
 }
+/* Ẩn hình ảnh cá nhân khi về màn hình mobile */
 .navbar-image {
   display: none;
 }
@@ -25,6 +27,7 @@
   text-decoration: none;
   padding: 10px 12px;
 }
+/* Sắp xếp nội dung thành 1 cột khi sang Mobile */
 .profile {
   display: grid;
   grid-template-columns: 1fr;
@@ -52,3 +55,12 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.sub-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/* Ẩn thông tin cá nhân */
+.Information {
+  visibility: hidden;
+ }

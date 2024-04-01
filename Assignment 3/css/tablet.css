@@ -1,4 +1,5 @@
 
+/* Sắp xếp nội dung thành 2 cột khi sang tablet */
 .sub-container1 {
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
@@ -6,11 +7,23 @@
     row-gap: 20px;
     justify-content: flex-start;
   }
+  /* Sắp xếp nội dung thành 2 cột khi sang tablet */
   .certi-info {
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
   }
+  /* Sắp xếp nội dung thành 2 cột khi sang tablet */
   .project-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .sub-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Ẩn thông tin cá nhân */
+  .Information {
+    visibility: hidden;
+   }
+  
